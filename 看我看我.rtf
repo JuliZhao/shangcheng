@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Chalkduster;
+}
+{\colortbl;\red255\green255\blue255;\red170\green13\blue145;\red92\green38\blue153;\red63\green110\blue116;
+\red46\green13\blue110;\red196\green26\blue22;\red28\green0\blue207;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe
+\f1 \
+
+\f0 \'b6\'fe\'b9\'b7\'a3\'ac\'c4\'e3\'bf\'b4\'c1\'cb\'c2\'f0\
+\'c3\'bb\'bf\'b4\'c4\'e3\'be\'cd\'ca\'c7\'b3\'f4\'c9\'b5\'b1\'c6\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\'b9\'fe\
+\
+==========================================================================\
+\'ca\'d7\'cf\'c8\'b0\'d1PaymentMethodVC.h/~.m\'cc\'ed\'bc\'d3\'b5\'bd\'c4\'e3\'b5\'c4\'b9\'a4\'b3\'cc\'c0\'ef\'c3\'e6\
+\'a3\'a8\'d1\'a1\'d4\'f1\'b7\'bd\'ca\'bd\'b5\'c4\'c3\'fb\'b3\'c6\'ba\'cd\'cd\'bc\'c6\'ac\'c7\'eb\'d4\'da.m\'b5\'c4\'b5\'da32\'d0\'d0\'b8\'fc\'b8\'c4\'a3\'ac\'d7\'d6\'b5\'e4\'bd\'e1\'b9\'b9\'b2\'bb\'d2\'aa\'b8\'c4\'b1\'e4\'a3\'a9\
+\
+\'c8\'bb\'ba\'f3\'b0\'d1OrderDetailCell.h\'c0\'ef\'c3\'e6\'b5\'c4\
+\pard\tx875\pardeftab875\pardirnatural\partightenfactor0
+
+\f2\fs44 \cf2 \CocoaLigature0 @property\cf0  (\cf2 nonatomic\cf0 , \cf2 strong\cf0 ) \cf3 UIView\cf0  *selectView;\
+\
+-(\cf2 void\cf0 )createOrderDetailCellWithDictionary:(\cf3 NSDictionary\cf0  *)dic;\
+
+\f0\fs24 \CocoaLigature1 \'d5\'b3\'cc\'f9\'b5\'bd\'c4\'e3\'d6\'ae\'c7\'b0\'b5\'c4OrderDetailCell.h\'c0\'ef\
+\'bb\'b9\'d3\'d0.m\'c0\'ef\'c3\'e6\'b5\'c4\'b7\'bd\'b7\'a8\'ca\'b5\'cf\'d6\
+\
+\'b7\'bd\'b7\'a8\'cc\'f8\'d7\'aa\'a3\'ba\
+\'d4\'daOrderDetailTVC.m\'b5\'c4\'c1\'a2\'bc\'b4\'b8\'b6\'bf\'ee\'b0\'b4\'c5\'a5\'b5\'c4\'b5\'e3\'bb\'f7\'ca\'c2\'bc\'fe\'c0\'ef\'d0\'b4\
+
+\f2\fs44 \CocoaLigature0 - (\cf2 IBAction\cf0 )popPaymentMethodView:(\cf3 UIButton\cf0  *)sender \{\
+\
+    \cf4 PaymentMethodVC\cf0  * vc=[[\cf4 PaymentMethodVC\cf0  \cf5 alloc\cf0 ] \cf5 init\cf0 ];\
+    vc.\cf4 money\cf0  = \cf6 @"$4545"\cf0 ;\
+    vc.\cf3 view\cf0 .\cf3 backgroundColor\cf0 =[\cf3 UIColor\cf0  \cf5 colorWithWhite\cf0 :\cf7 0\cf0  \cf5 alpha\cf0 :\cf7 0.5\cf0 ];\
+    vc.\cf3 modalPresentationStyle\cf0  = \cf5 UIModalPresentationOverFullScreen\cf0 ;\
+    [\cf2 self\cf0  \cf5 presentViewController\cf0 :vc \cf5 animated\cf0 :\cf2 NO\cf0  \cf5 completion\cf0 :^(\cf2 void\cf0 )\{\
+        vc.\cf3 view\cf0 .\cf3 superview\cf0 .\cf3 backgroundColor\cf0  = [\cf3 UIColor\cf0  \cf5 clearColor\cf0 ];\
+    \}];\
+\}
+\f0\fs24 \CocoaLigature1 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+}
